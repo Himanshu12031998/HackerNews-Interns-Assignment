@@ -1,0 +1,58 @@
+/* App.css */
+.nav-link {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .nav-link:hover {
+    text-decoration: none; 
+  }
+  
+  .imge{
+    border:none;
+  }
+ 
+  .borders{
+    margin-top:1rem;
+  }
+  .second{
+    margin-top: 2.5rem;
+    font-size: 15px;
+  }
+  .first{
+    font-weight: 500;
+    font-size: 16px;
+    color:var(--body_color);
+  }
+  .firs,.home{
+    color:var(--body_color);
+  }
+  p,h5{
+    color:var(--body_color); 
+  }
+  .countryName{
+    color:var(--link_color);
+  }
+  .countryDetails-main-container{
+    display: flex;
+    gap:20px;
+    background-color:var(--link_color);
+  }
+  .bordersBtn{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+  }
+  .darkMode{
+    margin-left: 2px;
+  }
+
+  @media All and (max-width:360px){
+    .home{
+      display:none;
+    }
+    .brand{
+      font-size: 15px;
+    }
+  }
+
